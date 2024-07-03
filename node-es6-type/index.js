@@ -1,5 +1,5 @@
-import users from "./users.mjs";
-import getCurrentMonth from "./date/getCurrentMonth.mjs";
+import users from "./users.js";
+// import getCurrentMonth from "./date/getCurrentMonth.js";
 
 // console.log(users);
 
@@ -17,7 +17,7 @@ import getCurrentMonth from "./date/getCurrentMonth.mjs";
 console.log(users.admins);
 
 // Новий ES6
-console.log(getCurrentMonth());
+// console.log(getCurrentMonth());
 // const {isLeapYears} = require("./date");
 
 
